@@ -3,13 +3,13 @@
     "name": "db",
     "connector": "memory"
   },
-  "mongo": {
-    "host": "127.0.0.1",
+  "mongodb": {
+    "host": "localhost",
     "port": 27017,
-    "url": "mongodb+srv://Cluster00423:root@cluster00423.khxskef.mongodb.net/?retryWrites=true&w=majority&appName=Cluster00423",
-    "database": "mongodb",
+    "url": "mongodb://localhost:27017/",
+    "database": "noteapi",
     "password": "root",
-    "name": "mongo",
+    "name": "mongodb",
     "user": "root",
     "useNewUrlParser": true,
     "connector": "mongodb"
